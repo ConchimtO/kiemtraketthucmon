@@ -1,0 +1,24 @@
+﻿<Window x:Class="BaiThiWindows1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BaiThiWindows1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lab1" Content="Giá Trị 1" HorizontalAlignment="Left" Height="37" Margin="69,57,0,0" VerticalAlignment="Top" Width="101" FontSize="20"/>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="43" Margin="67,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" FontSize="20"/>
+        <Label x:Name="lab2" Content="Giá Trị 2" HorizontalAlignment="Left" Margin="69,249,0,0" VerticalAlignment="Top" Height="43" Width="101" FontSize="20"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Height="44" Margin="69,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" FontSize="20"/>
+        <GroupBox x:Name="GBToan" Header="Toán" HorizontalAlignment="Left" Height="223" Margin="270,127,0,0" VerticalAlignment="Top" Width="217" FontSize="20"/>
+        <RadioButton x:Name="radioChia" Content="Interger Dividion [\]" HorizontalAlignment="Left" Margin="308,165,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton x:Name="radioDu" Content="Remainder [Mod]" HorizontalAlignment="Left" Margin="308,208,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton x:Name="radioMu" Content="Exponentiation [^]" HorizontalAlignment="Left" Margin="308,259,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton x:Name="radioCongChuoi" Content="Concatenation []" HorizontalAlignment="Left" Margin="308,306,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lab3" Content="Kết Quả" HorizontalAlignment="Left" Margin="594,66,0,0" VerticalAlignment="Top" Height="35" Width="102" FontSize="20"/>
+        <TextBox x:Name="txtKetQua" HorizontalAlignment="Left" Height="55" Margin="576,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" FontSize="20"/>
+        <Button x:Name="btnTinh" Content="Tính" HorizontalAlignment="Left" Margin="576,228,0,0" VerticalAlignment="Top" Width="154" Height="51" FontSize="20" Click="BtnTinh_Click"/>
+        <Button x:Name="btnKetThuc" Content="Kết Thúc" HorizontalAlignment="Left" Height="53" Margin="576,331,0,0" VerticalAlignment="Top" Width="154" FontSize="20" Click="BtnKetThuc_Click"/>
+    </Grid>
+</Window>
