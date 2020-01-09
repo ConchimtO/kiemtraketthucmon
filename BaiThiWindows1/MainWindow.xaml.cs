@@ -24,7 +24,6 @@ namespace BaiThiWindows1
         {
             InitializeComponent();
         }
-
         private void BtnKetThuc_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
